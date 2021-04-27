@@ -1,0 +1,581 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 	960px;
+    }    
+    .my-info {
+        min-height: 900px;
+            &_item2 {
+                right: 50px;
+            }
+        }
+    .skills {
+        &__text {
+            font-size: 16px;
+            width: 270px;
+        }
+        &__name {
+            font-size: 19px;
+        }
+        &__item {
+            padding-left: 15px;
+            margin-left: 5px;
+            height: 370px;
+            &:nth-child(1) {
+                 margin: 0;
+            }
+        }
+    }
+    .creative {
+        padding-top: 50px;
+        &__items {
+            display: block;
+        }
+        &__item {
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+    }
+    .work {
+        min-height: 960px;
+        padding-top: 110px;
+        .two {
+            img {
+                width: 240px;
+                height: 240px;
+            }
+        }
+        .four{
+            img {
+                height: 240px;
+                width: 485px;
+            }
+        }
+        .five {
+            img {
+                width: 240px;
+                height: 485px;
+            }
+        }
+        &__items {
+            grid-template: repeat(2, 240px)/repeat(4, 240px);
+            grid-auto-rows: 240px;
+        }
+    }
+    .contacts {
+        min-height: 1000px;
+        &__item {
+            img {
+                width: 460px;
+            }
+            &-two {
+                margin-left: 25px;
+            }
+        }
+        .form_small {
+            width: 200px;
+            height: 60px;
+        }
+        .form_big {
+            width: 430px;
+            height: 85px;
+        }
+        &__data {
+            width: 455px;
+            font-size: 20px;
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .my-info {
+        min-height: 730px;
+        &__name {
+            font-size: 35px;
+        }
+        &__text {
+            width: 430px;
+            font-size: 16px;
+        }
+        &__banner {
+            font-size: 25px;
+        }
+        &__object {
+            font-size: 14px;
+        }
+        &__web {
+            img {
+                margin-right: 20px;
+                height: 120px;
+            }
+        }
+        &_item2 {
+            right: 35px;
+            .forest1 {
+                height: 300px;
+                width: 230px;
+            }
+            .forest2 {
+                height: 300px;
+                width: 230px;
+            }
+            .forest3 {
+                height: 300px;
+                width: 230px;
+            }
+        }
+        &__text {
+            width: 400px;
+            font-size: 15px;
+        }
+    }
+    .skills {
+        &__text {
+            font-size: 15px;
+            width: 215px;
+        }
+        &__item {
+            height: 420px;
+        }
+    }
+    .prise {
+        &__item {
+            width: 310px;
+        }
+        &__text {
+            font-size: 15px;
+        }
+    }
+    .work {
+        &__items {
+            grid-template: repeat(2, 240px) / repeat(2, 240px);
+            grid-auto-rows: 240px;
+            gap: 5px;
+            .vertical {
+                grid-row: 2 / 2;
+                grid-column: 3 / 3;
+            }
+            .horizonal {
+                grid-row: 2 / 3;
+                grid-column: 2 / 4;
+            }
+        }
+        .four {
+            img {
+                height: 240px;
+                width: 240px;
+            }
+        }
+        .five {
+            img {
+                width: 240px;
+                height: 240px;
+            }
+        }
+    }
+    .contacts {
+        min-height: 1600px;
+        &__item {
+            img {
+                width: 470px;
+                margin-left: 50px;
+                margin-bottom: 30px;            
+            }
+        }
+        &__items {
+            display: block;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 	540px;
+    }
+    .about-me {
+        &_items {
+            padding-top: 140px;
+        }
+    }
+    .about-me {
+        &__subname {
+            font-size: 21px;
+        }
+        &_name {
+            font-size: 21px;
+            left: 136px;
+            margin-top: 3px;
+        }
+        &_work {
+            font-size: 36px;
+            line-height: 47px;
+            width: 525px;
+            margin-top: 30px;
+        }
+        &__btn-portfolio {
+            a {
+                font-size: 19px;
+            }
+        }
+        &__btn-abme {
+            a {
+                font-size: 19px;
+            }
+        }
+    }
+    .my-info {
+        &__name {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        &__text {
+            width: 241px;
+            font-size: 12px;
+        }
+        &__web {
+            margin-top: 45px;
+            display: -webkit-box;
+            img {
+                height: 100px;
+                margin-right: 16px;
+            }
+        }
+        &__banner {
+            font-size: 17px;
+        }
+        &__object {
+            font-size: 12px;
+        }
+        &_item2 {
+            right: 50px;
+            .forest1 {
+                height: 259px;
+                width: 189px;
+            }
+            .forest2 {
+                height: 259px;
+                width: 189px;
+            }
+            .forest3 {
+                height: 259px;
+                width: 189px;
+            }
+        }
+    }
+    .experience {
+        min-height: 800px;
+        &__banner {
+            font-size: 30px;
+        }
+        &__study {
+            font-size: 27px;
+        }
+        &__line {
+            margin-top: 5px;
+        }
+        &__text {
+            font-size: 22px;
+        }
+        &__wayup {
+            font-size: 22px;
+        }
+        &__web {
+            font-size: 16px;
+        }
+    }
+    .skills{
+        min-height: 1700px;
+        &__items {
+            display: block;
+            margin-top: 60px;
+        }
+        &__item {
+            margin: 0 auto;
+            padding-left: 35px;
+            height: 400px;
+            margin-top: 20px;
+            &:nth-child(1) {
+                margin: 0 auto;
+            }
+        }
+    }
+    .work {
+        min-height: 1140px;
+        &__items {
+            display: block;
+            margin-left: 30px;
+        }
+        a {
+            img {
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .prise {
+        &__items {
+            display: block;
+            margin-top: 65px;
+        }
+        &__name {
+            font-size: 15px;
+            margin-left: 17px;
+            span {
+                margin-left: 20px;
+            }
+        }
+        &__text {
+            margin-left: 20px;
+        }
+    }
+    .contacts {
+        padding-top: 120px;
+        min-height: 1490px;
+        &__items {
+            display: block;
+        }
+        &__item {
+            img {
+                width: 400px;
+                margin-bottom: 30px;
+            }
+        }
+        &__data {
+            width: 480px;
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 	100%;
+        padding: 0 10px 0 10px;
+    }
+    .work {
+        &__banner {
+            font-size: 35px;
+        }
+        &__line {
+            width: 130px;
+        }
+        &__items {
+            margin-left: 10px;
+            grid-template: repeat(6, 280px)/repeat(1, 280px);
+            .horizonal {
+                grid-row: auto;
+                grid-column: auto;
+            }
+            .vertical {
+                grid-row: auto;
+                grid-column: auto;
+            }
+            .five {
+                img {
+                    height: 280px;
+                }
+            }
+            .four {
+                img {
+                    width: 240px;
+                }
+            }
+        }
+    }
+    .about-me {
+        max-height: 500px;
+        min-height: 500px;
+        height: 100%;
+        &_work {
+            font-size: 30px;
+            width: auto;
+            margin-top: 20px;
+        }
+        &__subname {
+            font-size: 16px;
+            padding: 2px 15px 2px 8px;
+        }
+        &_name {
+            font-size: 16px;
+            left: 106px;
+        }
+        &__btn-portfolio {
+            a {
+                font-size: 16px;
+                padding: 8px 15px 8px 15px;
+            }
+        }
+        &__btn-abme {
+            a {
+                font-size: 16px;
+                padding: 8px 15px 8px 15px;
+            }
+        }
+        .overlay {
+            height: 500px;
+        }
+    }
+    .my-info {
+        min-height: 920px;
+        &__title {
+            margin-top: 60px;
+        }
+        &__banner {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        &__items {
+            display: block;
+        }
+        &__web {
+            display: block;
+            text-align: center;
+            margin-top: 360px;
+            width: 300px;
+        }
+        &_item1 {
+            width: 309px;
+        }
+        &_item2 {
+            position: relative;
+            top: -70px;
+            right: 0;
+            .forest1 {
+                position: absolute;
+                left: 38px;
+                top: -605px;
+                margin: 0;
+                padding: 0;
+            }
+            .forest2 {
+                position: relative;
+                z-index: 6;
+                margin: 0;
+                padding: 0;
+                top: -580px;
+                left: 59px;
+            }
+            .forest3 {
+                position: absolute;
+                z-index: 6;
+                margin: 0;
+                padding: 0;
+                top: -555px;
+                left: 83px;
+            }
+        } 
+    }
+    .work {
+        min-height: 1900px;
+        &__items {
+            margin-left: 30px;
+        }
+    }
+    .experience {
+        &__objects {
+            width: 300px;
+            padding-left: 25px;
+        }
+        &__text {
+            font-size: 17px;
+            width: 260px;
+        }
+        &__banner {
+            font-size: 25px;
+        }
+        &__study {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+    }
+    .skills {
+        &__banner {
+            font-size: 28px;
+        }
+        &__item {
+            width: 300px;
+        }
+    }
+    .creative {
+        &__title {
+            font-size: 14px;
+        }
+        &__item {
+            width: 300px;
+            img {
+                width: 300px;
+            }
+        }
+    }
+    .prise {
+        &__item {
+            width: 295px;
+        }
+        &__text {
+            font-size: 14px;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+    }
+    .contacts {
+        padding-top: 70px;
+        &__items {
+            display: block;
+        }
+        &__item {
+            img {
+                width: 300px;
+                margin: 0;
+            }
+        }
+        &__title {
+            margin-top: 17px;
+        }
+        &__item-two {
+            margin: 0;
+        }
+        &__banner {
+            font-size: 30px;
+        }
+        &__connect {
+            font-size: 19px;
+        }
+        &__data {
+            font-size: 22px;
+            width: 300px;
+        }
+        .form {
+            &_big {
+                width: 300px;
+            }
+        }
+        .dddf {
+            display: block;
+            &_two {
+                margin: 0;
+            }
+        }
+    }
+    .hamburger {
+        top: 35px;
+        right: 35px;
+    }
+    .menu {
+        width: 220px;
+        &__logo {
+            font-size: 25px;
+        }
+        &__list {
+            font-size: 21px;
+        }
+        &__icon {
+            width: 150px;
+            img {
+                width: 35px;
+            }
+        }
+    }
+}

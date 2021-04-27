@@ -1,0 +1,71 @@
+.about-me {
+    min-height: 100vh;
+    background-image: url('../../img/bg_one.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &_items {
+        padding-top: 230px;
+    }
+    &_name {
+        font-size: 24px;
+        line-height: 36px;
+        color: #ffffff;
+        margin-top: 2px;
+        position: absolute;
+        left: 152px;
+        font-weight: 700;
+    }
+    &__subname {
+        background-color: #C6B6DB;
+        padding: 11px 20px 8px 8px;
+        font-size: 24px;
+        line-height: 36px;
+        color: #ffffff;
+        font-weight: 700;
+    }
+    &_item {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    &_work {
+        font-size: 48px;
+        line-height: 72px;
+        font-weight: 700;
+        color: #ffffff;
+        width: 535px;
+    }
+    &__btn {
+        display: flex;
+        margin-top: 30px;
+        &-portfolio {
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 24px;
+                line-height: 36px;
+                // background-color: #6D6379;
+                padding: 6px 15px 10px 15px;
+                &:hover {
+                    background-color:  #6D6379;
+                    transition: all 0.5s;
+                }
+            }
+        }
+        &-abme {
+            a {
+                margin-left: 34px;
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 24px;
+                line-height: 36px;
+                padding: 6px 15px 10px 15px;
+                &:hover {
+                    background-color:  #6D6379;
+                    transition: all 0.5s;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.clients{
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400px;
+        margin-bottom: 56px;
+        // &:hover {
+        //     // background-color: salmon;
+        //     background-color: #99ff99;
+        //     font-size: 34px;
+        //     transition: all 0.5s ease;
+        // }
+    }
+    &__recall{
+        display: flex;
+        // align-items: flex-start;
+        margin-bottom: 100px;
+    }
+    img {
+        margin-right: 62px;
+    }
+    span{
+        font-size: 14px;
+        margin-bottom: 12px;
+        font-weight: 300;
+    }
+    h3{
+        font-weight: 700;
+        font-size: 17px;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+}

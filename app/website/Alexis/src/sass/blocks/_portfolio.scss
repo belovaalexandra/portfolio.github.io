@@ -1,0 +1,35 @@
+.portfolio {
+    height: 1385px;
+    position: relative;
+    &__banner {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 135px;
+    }
+    &__title {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 25px;
+    }
+    &__wrapper {
+        margin-top: 75px;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 1127px;
+        img {
+        margin: 7px 5px 7px 5px;
+        grid-template: repeat(3,370px)/repeat(3,370px);
+        grid-auto-rows: 370px;
+        // gap: 10px;
+        }
+    }
+    &__number {
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 274px;
+        font-weight: 400;
+        color: rgba(0,0,0, 0.04);
+    }
+}

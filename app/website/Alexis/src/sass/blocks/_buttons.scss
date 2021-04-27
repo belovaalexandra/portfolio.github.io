@@ -1,0 +1,56 @@
+.buttons {
+    background-color: #FC5F45;
+    border: none;
+    border-radius: 100px;
+    height: 50px;
+    width: 180px;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    &:hover {
+        background-color: #D12121;
+    }
+    &__green {
+        background-color: #38c695;
+        &:hover {
+            background-color: #ffffff;
+            color: #38c695;
+            border: 2px solid #38c695;
+        }
+    }
+    &__red {
+        &:hover {
+            background-color: #ffffff;
+            color:#FC5F45;
+            border: 2px solid #FC5F45;
+        }
+    }
+    &__purple {
+        background-color: #b27cf5;
+        &:hover {
+            background-color: #ffffff;
+            color: #b27cf5;
+            border: 2px solid #b27cf5;
+        }
+    }
+    &__start {
+        text-align: center;
+        display: flex;
+        margin-left: 42px;
+    }
+    &__subscr {
+        border-radius: 0 50px 50px 0;
+        padding-left: 0;
+        // position: absolute;
+    }
+    &__touch {
+        font-size: 16px;
+        padding: 14px 39px 13px 39px;
+        margin-top: 65px;
+        left: 50%;
+        transform: translateX(160%);
+    }
+}

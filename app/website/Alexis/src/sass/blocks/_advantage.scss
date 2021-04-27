@@ -1,0 +1,45 @@
+.advantage {
+    position: relative;
+    background-color: #262732;
+    height: 775px;
+    padding-top: 227px;
+    &__title {
+        color: #FFFFFF;
+        font-size: 60px;
+        width: 885px;
+        text-align: center;
+        font-weight: normal;
+        transform: translateX(+15%);
+    }
+    &__items{
+        margin-top: 83px;
+        display: flex;
+        position: relative;
+        left: 10%;
+    }
+    &__icons{
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+        margin-left: 120px;
+        .text {
+            margin-top: 32px;
+            font-style: 18px; 
+        }
+    }
+    &__btn {
+        margin-top: 35px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }   
+    &__text1 {
+        color: #38C695;
+    }
+    &__text2 {
+        color: #B27CF5;
+    }
+    &__text3 {
+        color: #FEB960;
+    }
+}

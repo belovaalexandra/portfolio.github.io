@@ -1,0 +1,52 @@
+.team {
+    min-height: 732px;
+    &__banner {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        padding-top: 80px;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        color: #737373;
+        padding: 0;
+        margin: 0 auto;
+        width: 470px;
+        margin-top: 15px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    &__item {
+        border: 1px #eeeeee solid;
+        width: 329px;
+        height: 373px;
+        img {
+            margin-top: -1px;
+        }
+    }
+    &__name {
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    &__position {
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+        color: #737373;
+        margin-top: 5px;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        width: 102px;
+        margin-left: 113px;
+        margin-top: 7px;
+    }
+}

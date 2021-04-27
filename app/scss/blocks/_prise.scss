@@ -1,0 +1,61 @@
+.prise {
+    background-image: url('../../img/bg_four.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__overlay {
+        padding: 85px 0 126px 0;
+        background-color: rgba($color: #000, $alpha: 0.5)
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        color: #ffffff;
+        background-color: #6D6379;
+        width: 215px;
+        margin: 0 auto;
+        padding-left: 33px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-bottom: 30px;
+    }
+    &__line {
+        background-color: #fff;
+        width: 200px;
+        height: 3px;
+        margin: 0 auto;
+    }
+    &__name {
+        font-weight: 700;
+        line-height: 27px;
+        font-size: 18px;
+        color: #ffffff;
+        margin-left: 25px;
+        display: flex;
+        justify-content: space-between;
+        span {
+            margin-left: 49px;
+            text-align: right;
+        }
+    }
+    &__text {
+        font-size: 18px;
+        color: #FFFFFF;
+        line-height: 27px;
+        font-weight: 600;
+        margin-left: 25px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    &__items {
+        display: flex;
+        margin-top: 90px;
+        justify-content: space-between;
+    }
+    &__item {
+        border-left: 2px solid #fff;
+        width: 385px;
+        height: 190px;
+    }
+}

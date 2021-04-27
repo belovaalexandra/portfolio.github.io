@@ -1,0 +1,45 @@
+.focus {
+    background: url('../../img/Background3.jpg') ;
+    height: 824px;
+    position: relative;
+    &__banner {
+        font-size: 50px;
+        text-align: center;
+        padding-top: 133px;
+    }
+    &__title {
+        font-size: 18px;
+        text-align: center;
+    }
+    &__paragraph {
+        span {
+            font-size: 20px;
+        }
+        font-size: 15px;
+        width: 213px;
+    }
+    &__items {
+        display: flex;
+        margin-top: 80px;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+    &__item {
+        background-color: #ffffff;
+        padding: 61px 17px 24px 17px; 
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        img {
+            margin-bottom: 23px;
+        }
+    }
+    &__number {
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 274px;
+        font-weight: 400;
+        color: rgba(0,0,0, 0.04);
+    }
+}

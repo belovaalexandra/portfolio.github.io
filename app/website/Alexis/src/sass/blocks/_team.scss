@@ -1,0 +1,116 @@
+.team {
+    background-color: #F7F7F7;
+    min-height: 1311px;
+    position: relative;
+    &__banner {
+        text-align: center;
+        font-size: 50px;
+        padding-top: 140px;
+    }
+    &__title {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    &__items {
+        margin-top: 78px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    &__item {
+        background-color: #fff;
+        width: 263px;
+        height: 350px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    &__text {
+        font-size: 13px;
+    }
+    &__tag {
+        margin-top: 12px;
+        font-style: 19px;
+    }
+    &__tag_pink {
+        color: #FC5F45;
+    }
+    
+    &__tag_green {
+        color: #38C695;
+    }
+    &__tag_purple {
+        color: #B27CF5;
+    }
+    &__tag_orange {
+        color: #FEB960;
+    }
+    hr {
+        width: 263px;
+        height: 2px;
+        border: none;
+        margin-top: 23px;
+    }
+    &__paragraph {
+        font-size: 15px;
+        width: 653px;
+        span {
+            font-size: 20px;
+            padding-top: 70px;
+        }
+    }
+    &__number {
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 274px;
+        font-weight: 400;
+        color: rgba(0,0,0, 0.06);
+    }
+    &__socnetworks {
+        color: #616161;
+        margin-left: 7px;
+    }
+    &__line {
+        width: 2px;
+        height: 151px;
+        background-color: #616161;
+        border: none;
+        align-items: left;
+    }
+    &__object {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffffff;
+        width: 1070px;
+        height: 351px;
+        margin-top: 49px;
+        padding: 0 26px 0 98px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__social {
+       border-left: 2px solid #EFEFEF;
+       margin-left: 34px;
+       padding: 21px 0 21px 24px; 
+    }
+}
+.pink {
+    background-color: #FC5F45;
+}
+.green {
+    background-color: #38c695;
+}
+.purple {
+    background-color: #B27CF5;
+}
+.orange {
+    background-color: #FEB960;
+}

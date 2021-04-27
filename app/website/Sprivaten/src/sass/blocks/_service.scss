@@ -1,0 +1,43 @@
+.service {
+    height: 816px;
+    position: relative;
+    &-bg {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 80px;
+        z-index: 3;
+    }
+    &__bckg {
+        background-color: #0B343D;
+        min-height: 407px;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
+    &-video {
+        display: block;
+        margin: 0 auto;  
+    }
+    &__banner {
+        padding: 0;
+        margin: 0 auto;
+        padding-top: 80px;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        width: 480px;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        color: #737373;
+        padding: 0;
+        margin: 0 auto;
+        width: 470px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+}

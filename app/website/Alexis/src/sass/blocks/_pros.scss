@@ -1,0 +1,23 @@
+.pros {
+    background: url('../../img/bg5.jpg');
+    height: 464px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 147px;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__banner {
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 15px;
+        margin-top: 23px;
+        margin-bottom: 37px;
+    }
+}

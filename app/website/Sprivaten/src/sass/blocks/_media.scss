@@ -1,0 +1,402 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 	960px;
+    }
+    .choose {
+        &__name {
+            width: 297px;
+        }
+        &__text {
+            width: 297px;
+        }
+    }
+    .clients {
+        &__item {
+            width: 290px;
+        }
+    }
+    .team {
+        &__item {
+            width: 291px;
+        }
+        &__icon {
+            width: 291px;
+        }
+        &__icons {
+            margin: 0 auto;
+            justify-content: space-around;
+            width: 102px;
+            margin-top: 7px;
+        }
+    }
+    .sprivaten {
+        min-height: 500px;
+        &__line {
+            width: 960px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .promo {
+        min-height: 1400px;
+        &__items {
+            display: block;
+        }
+        &__inner {
+            display: none;
+        }
+        &__window {
+            margin-top: 35px;
+        }
+        &__nav {
+            margin-right: 180px;
+        }
+    }
+    .service {
+        &-video {
+            width: 700px;
+        }
+    }
+    .clients {
+        &__item{
+            width: 230px;
+            height: 275px;
+        }
+    }
+    .team {
+        min-height: 1500px;
+        &__items {
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__item {
+            margin-top: 30px;
+            &:nth-child(1) {
+                margin: 0 auto;
+            }
+        }
+    }
+    .choose {
+        min-height: 1620px;
+        &__items {
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__item {
+            margin-top: 300px;
+            &:nth-child(1) {
+                margin: 0 auto;
+            }
+        }
+    }
+    .sprivaten {
+        min-height: 500px;
+        &__line {
+            width: 720px;
+        }
+        input {
+            height: 50px;
+            padding-left: 12px;
+            width: 98px;
+        }
+        button {
+            height: 50px;
+            width: 85px;
+        }
+    }
+} 
+
+@media (max-width: 768px) {
+    .container {
+        width: 	540px;
+    }
+    .hamburger {
+        top: 40px;
+        right: 35px;
+    }
+    .promo {
+        min-height: 1400px;
+        &__banner {
+            text-align: center;
+        }
+        &__title {
+            text-align: center;
+        }
+        &__btns {
+            display: flex;
+            justify-content: center;
+        }
+        &__window {
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        &__inner {
+            display: none;
+        }
+        &__items {
+            display: block;
+        }
+    }
+    .choose {
+        min-height: 1650px;
+        &__items {
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__item {
+            margin-top: 320px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+        }
+    }
+    .service {
+        &-video {
+            width: 510px;
+        }
+    }
+    .clients {
+        min-height: 1200px;
+        &__items {
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__item {
+            margin-top: 20px;
+        }
+    }
+    .team {
+        min-height: 1600px;
+        &__items {
+            display: block;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        &__item {
+            margin-top: 30px;
+        }
+    }
+    .contact {
+        &__window {
+            width: 246px;
+            &_big {
+                width: 542px;
+                margin: 0 auto;
+                margin-top: 20px;
+                width: 516px;
+            }
+        }
+        form {
+            width: 540px;
+        }
+        &__application {
+            width: 530px;
+        }
+    }
+    .consult {
+        min-height: 160px;
+    }
+    .sprivaten {
+        min-height: 1500px;
+        &__objectss {
+            display: block;
+            width: 500px;
+        }
+        &__line {
+            width: 530px;
+        }
+        input {
+            height: 60px;
+            padding-left: 20px;
+            width: 203px;
+        }
+        button {
+            height: 60px;
+            width: 122px;
+        }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 	100%;
+    }
+    .hamburger {
+        top: 42px;
+        right: 14px;
+    }
+    .promo {
+        min-height: 1275px;
+        &__nav {
+            margin-right: 15px;
+        }
+        &__banner {
+            text-align: center;
+            width: 305px;
+            font-size: 33px;
+        }
+        &__title {
+            text-align: center;
+            width: 302px;
+        }
+        &__window { 
+            width: 302px;
+            padding: 30px 30px 30px 30px;
+            height: 573px;
+        }
+        button {
+            font-size: 12px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        &__btns {
+            display: block;
+            justify-content: center;
+        }
+        &__item {
+            padding-top: 0;
+        }
+        &__items  {
+            display: block;
+        }
+        &__inner {
+            display: none;
+        }
+    }
+    .choose {
+        min-height: 1746px;
+        &__title {
+            width: 300px;
+        }
+        &__items {
+            display: block;
+        }
+        &__item {
+            margin-top: 320px;
+            &:nth-child(1) {
+                margin-top: 0;
+            }
+        }
+    }
+    .service {
+        min-height: 1000px;
+        &__banner {
+            width: 302px;
+        }
+        &__title {
+            width: 302px;
+        }
+        &-video {
+            width: 302px;
+        }
+    }
+    .clients {
+        min-height: 1300px;
+        &__tetle {
+            width: 302px;
+        }
+        &__items {
+            display: block;
+        }
+        &__item {
+            margin-top: 30px;
+        }
+    }
+    .team {
+        min-height: 1600px;
+        &__title {
+            width: 302px;
+        }
+        &__items {
+            display: block;
+        }
+        &__item {
+            margin-top: 30px;
+        }
+    }
+    .contact {
+        form {
+            display: contents;
+        }
+        &__window_big {
+            width: 291px;
+        }
+        &__application {
+            width: 302px;
+        }
+        button {
+            width: 291px;
+        }
+    }
+    .consult {
+        min-height: 290px;
+        &__banner {
+            text-align: center;
+        }
+        &__items {
+            display: block;
+        }
+        &__title {
+            text-align: center;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+    }
+    .sprivaten {
+        min-height: 1300px;
+        &__items {
+            display: block;
+        }
+        &__icon {
+            margin-top: 30px;
+        }
+        &__line {
+            width: 300px;
+        }
+        &__objectss {
+            display: block;
+            width: 300px;
+        }
+        &__object {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        input {
+            width: 180px;
+        }
+        &__smallest {
+            margin-top: 20px;
+        }
+        &__item {
+            margin-top: 20px;
+        }
+        .buttons__spr {
+            width: 116px;
+        }
+    }
+        .made {
+            &__title {
+                text-align: center;
+                padding-top: 18px;
+                width: 220px;
+                margin: 0 auto;
+            }
+        }   
+    }
+}

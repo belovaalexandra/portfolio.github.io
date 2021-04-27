@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="263" height="270" viewBox="0 0 263 270">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc5f45" stop-opacity="0.6"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M390,5156V4886H653v270Z" transform="translate(-390 -4886)" opacity="0.49" fill="url(#linear-gradient)"/>
+</svg>

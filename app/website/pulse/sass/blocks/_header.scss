@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__official {
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        span {
+            display: block;
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+    &__phone {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        a {
+            color:white;
+            // font-size: 16.5px;
+            // font-weight: 700;
+        }
+    }
+}

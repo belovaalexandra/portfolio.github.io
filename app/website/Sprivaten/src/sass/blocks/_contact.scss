@@ -1,0 +1,38 @@
+.contact {
+    height: 821px;
+    background: url('../../img/bg_contact.jpg') center (center/cover) no-repeat;
+    &__banner {
+        font-weight: 700;
+        font-size: 16px;
+        padding-top: 90px;
+        color: #252B42;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        color: #252B42;
+    }
+    &__application {
+        display: grid;
+        width: 630px;
+    }
+    &__window {
+        border: 2px #BDBDBD solid;
+        font-size: 14px;
+        font-weight: 600;
+        height: 50px;
+        width: 291px;
+        border-radius: 5px;
+        padding-left: 18px;
+        margin-right: 21px;
+        margin-top: 20px;
+        color: #BDBDBD;
+        &_big {
+            width: 607px;
+            height: 140px;
+            padding-left: 26px;
+            padding-top: 0;  
+        }
+    }
+
+}

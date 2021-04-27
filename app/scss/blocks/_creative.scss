@@ -1,0 +1,34 @@
+.creative {
+    min-height: 500px;
+    background-image: url('../../img/bg__three.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    &__items {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+        margin-right: 120px;
+    }
+    &__number {
+        color: #ffffff;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+    &__banner {
+        display: flex;
+    }
+    &__item {
+        width: 370px;
+        img {
+            margin-top: 35px;
+        }
+    }
+}

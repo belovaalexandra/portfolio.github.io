@@ -1,0 +1,141 @@
+.touch {
+    min-height: 1400px;
+    background-color: #CCCCCC;
+    position: relative;
+    &__number {
+        position: absolute;
+        top: -90px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 274px;
+        font-weight: 400;
+        color: rgba(0.1,0.1,0, 0.06);
+    }
+    &__banner {
+        font-size: 50px;
+        padding-top: 135px;
+        color: #313131;
+        text-align: center;
+    }
+    &__title {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 18px;
+        color: #616161;
+    }
+    &__forms {
+        border: 1px #EFEFEF solid;
+        border-radius: 5px;
+        height: 50px;
+        width: 340px;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 24px;
+        margin-left: 30px;
+        justify-content: space-between;
+
+    }
+    &__items {
+        margin-top: 80px;
+        left: 50%;
+        transform: translateX(25%);
+        min-height: 450px;
+        width: 750px;
+    }
+    &__message{
+        height: 200px;
+        width: 715px;
+        border-radius:5px;
+        border: 1px #EFEFEF solid;
+        font-size: 16px;
+        margin-top: 24px;
+        margin-left: 30px;
+        justify-content: space-between;
+        padding: 0;
+        padding: 1px 40px 110px 300px;
+        margin-bottom: 65px;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__objects{
+        margin-top: 230px;
+        display: flex;
+        background-color: #262732;
+        height: 225px;
+        width: 1140px;
+        padding: 76px 60px 60px 100px;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__website {
+        color: #ffffff;
+        font-size: 50px;
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;}
+        span {
+            color: #FC5F45;
+        }
+    }
+    &__text-green {
+        color: #ffffff;
+        width: 184px;
+        span {
+            color: #38c695;
+        }
+    }
+    &__text-purple {
+        color: #ffffff;
+        width: 184px;
+        span {
+            color: #B27CF5;
+        }
+    }
+    &__object {
+        color: #FEB960;
+    }
+    &__imgs {
+        margin-top: 38px;
+    }
+    &_red {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 290px;
+        margin: 0;
+        height: 3px;
+        border: none;
+        background-color: #FC5F45;
+    }
+    &_green {
+        position: absolute;
+        left: 290px;
+        bottom: 0;
+        width: 290px;
+        margin: 0;
+        height: 3px;
+        border: none;
+        background-color: #38c695;
+    }
+    &_purple {
+        position: absolute;
+        left: 560px;
+        bottom: 0;
+        width: 310px;
+        margin: 0;
+        height: 3px;
+        border: none;
+        background-color: #B27CF5;
+    }
+    &_yellow {
+        position: absolute;
+        left: 870px;
+        bottom: 0;
+        width: 270px;
+        margin: 0;
+        height: 3px;
+        border: none;
+        background-color: #FEB960;
+    }
+}

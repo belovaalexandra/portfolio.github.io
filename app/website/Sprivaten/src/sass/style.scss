@@ -1,0 +1,31 @@
+@import 'libs/bootstrap-reboot';
+@import 'blocks/fonts';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input::-moz-placeholder { color: #bdbdbd; }
+
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/choose';
+@import 'blocks/service';
+@import 'blocks/clients';
+@import 'blocks/team';
+@import 'blocks/contact';
+@import 'blocks/consult';
+@import 'blocks/sprivaten';
+@import 'blocks/made';
+@import 'blocks/menu';
+@import 'blocks/media';

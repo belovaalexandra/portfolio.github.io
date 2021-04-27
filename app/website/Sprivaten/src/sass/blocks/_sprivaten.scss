@@ -1,0 +1,63 @@
+.sprivaten {
+    height: 460px;
+    background-color: #252B42;
+    &__banner {
+        font-weight: 700;
+        font-size: 24px;
+        color: #fff;
+    }
+    &__line {
+        // width: 1070px;
+        background-color: #364067;
+        height: 1px;
+        margin-top: 53px;
+    }
+    &__items {
+        display: flex;
+        padding-top: 53px;
+        justify-content: space-between;
+    }
+    &__icon {
+        justify-content: space-between;
+        display: block; 
+        margin-right: 100px;   
+    }
+    &__objectss {
+        display: flex;
+        // justify-content: space-between;
+        height: 170px;
+        // width: 1041px;
+    }
+    &__object {
+        margin-top: 70px;
+        color: #BDBDBD;
+        font-weight: 600;
+        font-size: 14px;
+        margin-right: 50px;
+        &_form {
+            input {
+                height: 58px;
+                width: 204px;
+                border-radius: 5px 0 0 5px ;
+                border: none;
+                padding-left: 20px;
+                position: relative;
+            }
+        }
+        &_smallest {
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 5px;
+            color: #bdbdbd;
+        }
+        span {
+            font-weight: 700;
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

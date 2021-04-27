@@ -1,0 +1,134 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+    .adv {
+        &__descr{
+            width: 262px;
+        }
+        &__icon {
+            padding-right: 0;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 720px;
+    }
+    .adv {
+        &__descr {
+            width: 220px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 540px;
+    }
+    .header {
+        &__official {
+            font-size: 13px;
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .adv {
+        min-height: 520px;
+        &__descr {
+            width: 147px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+    }
+    .orders {
+        &__content {
+            display: block;
+        }
+    }
+    .catalog__inner {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .header {
+        display: grid;
+        img {
+            transform: translateX(15%);
+        }
+    }
+        &__official {
+            transform: translateX(13%);
+        }
+    .adv {
+        &__icons {
+            display: block;
+        }
+        &__icon {
+            img {
+                padding-bottom: 10px;
+            }
+        }
+        &__descr {
+            transform: translateX(10%);
+            width: 270px;
+            margin-bottom: 20px;
+            &:nth-child(3) {
+                margin-bottom: 0 ;
+                padding-bottom: 20px;
+            }
+        }
+    }
+    .form {
+        &__title {
+            font-size: 21px;
+            text-align: center;
+        }
+        &__text {
+            width: 300px;
+            padding-top: 25px;
+            text-align: center;
+        }
+        &__window {
+            transform: translateX(7%);
+            input {
+                width: 270px;
+            }
+            button {
+                width: 270px;
+            }
+        }
+    }
+    .orders {
+        &__tabs {
+            display: none;
+        }
+        &__tab {
+            font-size: 12px;
+        }
+        display: none;
+         &__content {
+            margin: 0 auto;
+        }
+    }
+    .clients {
+        &__recall {
+            display: block;
+        }
+    }
+    .map {
+        &__content {
+            width: 320px;
+        }
+        &__header {
+            font-size: 17px;
+        }
+    }
+}

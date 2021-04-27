@@ -1,0 +1,78 @@
+.promo {
+    background: url('../../img/promo-bg.jpg') center (center/cover) no-repeat;
+    min-height: 823px;
+    &__header {
+        justify-content: space-between;
+        display: flex;
+        padding-top: 36px;
+    }
+    &__nav {
+        display: flex;
+        a {
+            margin-right: 30px;
+        }
+    }
+    &__inner {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__icons {
+        width: 20px;
+        height: 20px;
+    }
+    &__banner {
+        // padding-top: 200px;
+        font-size: 58px;
+        font-weight: 800;
+        padding-top: 100px;
+    }
+    &__logo {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    &__inner {
+        list-style-type: none;
+    }
+    a {
+        color: #737373;
+        text-decoration: none;
+    }
+    &__title {
+        color: #737373;
+        font-size: 20px;
+        width: 539px;
+        margin-top: 35px;
+    }
+    &__form {
+        Width: 248px;
+        Height: 50px;
+        border-radius: 5px;
+        border: 2px #BDBDBD solid;
+        margin-bottom: 7px;
+        font-size: 14px;
+        padding: 11px 11px 11px 11px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+    }
+    &__text {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    &__name {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    &__window {
+        width: 328px;
+        height: 619px;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 40px 40px 40px 40px;
+    }
+}

@@ -1,0 +1,54 @@
+.clients {
+    min-height: 591px;
+    background-color: #F3F3F3;
+    &__banner {
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 80px;
+    }
+    &__tetle {
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        color: #737373;
+        margin-top: 15px;
+        width: 470px;
+    }
+    &__item {
+        width: 330px;
+        height: 244px;
+        background-color: #fff;
+        padding: 30px 30px 35px 35px;
+    }
+    &__items {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__say {
+        color: #737373;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    &__view {
+        display: flex;
+        margin-top: 20px;
+        img {
+            margin-right: 15px;
+        }
+    }
+    &__name {
+        color: #FFA62B;
+        font-weight: 600;
+        font-size: 14px;
+        span {
+            color: #000;
+            font-weight: 600;
+            font-size: 14px; 
+        }
+    }
+}

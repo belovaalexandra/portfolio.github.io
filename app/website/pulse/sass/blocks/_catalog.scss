@@ -1,0 +1,17 @@
+.slick-next {
+    border: none;
+    background-color: #ffffff;
+}
+
+.slick-prev {
+    border: none;
+    background-color: #ffffff;
+}
+.catalog {
+    margin-top: 81px;
+    position: relative;
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+}

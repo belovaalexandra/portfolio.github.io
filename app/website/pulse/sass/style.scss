@@ -1,0 +1,33 @@
+// @import 'base/fonts';
+@import 'blocks/animation';
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+// * {
+//     font-family: 'MuseoSansCyrl' sans-serif;
+//     font-weight: 500;
+// }
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantage';
+@import 'blocks/forms';
+@import 'blocks/catalog';
+@import 'blocks/clients';
+@import 'blocks/map';
+@import 'blocks/orders';
+@import 'blocks/form-feed';
+@import 'blocks/modal';
+@import 'blocks/media';
+
+.pageup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+}
